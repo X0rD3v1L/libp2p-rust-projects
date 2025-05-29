@@ -1,0 +1,51 @@
+# Compiled files and build output
+/target/
+**/target/
+
+# If using Cargo.lock for libraries, you might want to ignore it
+# But keep it for binaries/executables (default case)
+# Cargo.lock
+
+# Backup & temporary files
+**/*.rs.bk
+**/*~
+**/*.swp
+**/*.swo
+
+# IDE and editor settings
+# VSCode
+.vscode/
+
+# JetBrains IDEs (CLion, IntelliJ)
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Linux specific
+*~
+
+# Node/npm stuff if you’re using WebAssembly or frontend
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Coverage and testing
+/coverage/
+*.lcov
+
+# Binaries and output files
+*.exe
+*.out
+*.wasm
+
+# By convention, ignore system-specific files
+Thumbs.db
+ehthumbs.db
